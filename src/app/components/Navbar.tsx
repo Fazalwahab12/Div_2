@@ -6,7 +6,7 @@ import { MdOutlineNotificationsActive  } from 'react-icons/md';
 import { FaStar, FaEnvelope } from 'react-icons/fa';
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 bg-white shadow-md w-screen  h-22  flex items-center justify-between px-4">
+    <nav className=" top-0 left-0 bg-white shadow-md w-screen  h-22  flex items-center justify-between px-4">
       <Link href="/" className="flex items-center">
           <Image
            src={primary}
