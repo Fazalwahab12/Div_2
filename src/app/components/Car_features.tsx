@@ -5,9 +5,9 @@ import group from '../../../public/public/group.svg'
 const Carfeatures = () => {
   return (
     <div className="relative">
-      <div className="absolute top-[820px] left-[400px] text-base font-semibold text-black">
+      <h1 className="absolute top-[820px] left-[400px] text-base font-semibold text-black">
         Fuel Type
-      </div>
+      </h1>
 
       <div className="absolute top-[820px] left-[400px] border-blue-500">
         <div className="flex justify-center space-x-[130px]">
@@ -16,13 +16,13 @@ const Carfeatures = () => {
         </div>
       </div>
 
-      <div className="absolute top-[820px] left-[530px] text-base font-semibold text-black">
+      <h2 className="absolute top-[820px] left-[530px] text-base font-semibold text-black">
         Vehicle type
-      </div>
+      </h2>
 
-      <div className="absolute top-[920px] left-[400px] text-base font-semibold text-black">
+      <p className="absolute top-[920px] left-[400px] text-base font-semibold text-black">
       Power (hp)
-      </div>
+      </p>
 
       <div className=" absolute top-[920px] left-[400px] border-blue-500">
         <div className="flex justify-center space-x-[130px]">
@@ -31,14 +31,14 @@ const Carfeatures = () => {
         </div>
       </div>
 
-      <div className="absolute top-[1000px] left-[400px] text-base font-semibold text-black">
+      <p className="absolute top-[1000px] left-[400px] text-base font-semibold text-black">
       Transmission
-      </div>
+      </p>
 <div className='absolute top-[1000px] left-[400px] border-blue-500'>
       <div className="absolute top-[32px] left-[0px] rounded-lg bg-white  w-[255px] h-11 border-[1px] border-solid border-blue-500">
-        <div className="absolute top-[11.5px] left-[16px] font-medium">
+        <h1 className="absolute top-[11.5px] left-[16px] font-medium">
         Automatic
-        </div>
+        </h1>
         <Image
           className="absolute top-[0px] left-[218px] w-9 h-11"
           alt=""

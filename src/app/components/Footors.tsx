@@ -3,6 +3,7 @@ import React from 'react'
 import soicalicon from '../../../public/public/social_icon.svg'
 
 import Quicklinks from './Quick_links'
+import Link from 'next/link'
 const Footors = () => {
   return (
     <div className="absolute top-[2854px] left-[calc(50%_-_960px)] w-[1820px] h-[771px] text-left text-13xl text-white font-lora">
@@ -17,39 +18,39 @@ const Footors = () => {
         <div className="absolute top-[134px] left-[0px] w-[476px] h-[215px]">
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[0px] left-[0px] w-[230px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] rounded-lg bg-[#658FBD] w-[230px] h-[61px]" />
-            <div className="absolute top-[17px] left-[81px] text-lg font-bold text-white text-center">
+            <Link className="absolute top-[17px] left-[81px] text-lg font-bold text-white text-center" href={''}>
               Audi A4
-            </div>
+            </Link>
           </button>
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[77px] left-[0px] w-[230px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] rounded-lg bg-[#658FBD] w-[230px] h-[61px]" />
-            <div className="absolute top-[17px] left-[50px] text-lg font-bold text-white text-center">
+            <Link className="absolute top-[17px] left-[50px] text-lg font-bold text-white text-center" href={''}>
               Skoda Octavia
-            </div>
+            </Link>
           </button>
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[154px] left-[0px] w-[230px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] rounded-lg bg-[#658FBD] w-[230px] h-[61px]" />
-            <div className="absolute top-[17px] left-[65px] text-lg font-bold text-white text-center">
+            <Link className="absolute top-[17px] left-[65px] text-lg font-bold text-white text-center" href={''}>
               Fiant Punto
-            </div>
+            </Link>
           </button>
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[0px] left-[246px] w-[230px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] rounded-lg bg-[#658FBD] w-[230px] h-[61px]" />
-            <div className="absolute top-[17px] left-[61px] text-lg font-bold text-white text-center">
+            <Link className="absolute top-[17px] left-[61px] text-lg font-bold text-white text-center" href={''}>
               Volkswagen
-            </div>
+            </Link>
           </button>
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[77px] left-[246px] w-[230px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] rounded-lg bg-[#658FBD] w-[230px] h-[61px]" />
-            <div className="absolute top-[17px] left-[56px] text-lg font-bold text-white text-center">
+            <Link className="absolute top-[17px] left-[56px] text-lg font-bold text-white text-center" href={''}>
               BMW 5 Series
-            </div>
+            </Link>
           </button>
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute top-[154px] left-[246px] w-[230px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] rounded-lg bg-[#658FBD] w-[230px] h-[61px]" />
-            <div className="absolute top-[17px] left-[61px] text-lg font-bold text-white text-center">
+            <Link className="absolute top-[17px] left-[61px] text-lg font-bold text-white text-center" href={''}>
               Renault Clio
-            </div>
+            </Link>
           </button>
         </div>
       </div>

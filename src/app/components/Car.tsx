@@ -65,17 +65,17 @@ const Car = () => {
       <div className="absolute top-[1920px] left-[1045px] w-[467px] h-[31px]  text-blue-500">
         <div className="absolute top-[0px] left-[0px] w-[320px] space-x-4 h-[31px]">
           <div className="absolute top-[0px] left-[0px] rounded-lg bg-blue-300  flex flex-row items-center justify-center py-2 px-4">
-            <div className="relative">Damaged</div>
+            <h1 className="relative">Damaged</h1>
           </div>
           <div className="absolute top-[0px] left-[91px] rounded-lg bg-blue-300 flex  flex-row items-center mx-6 justify-center py-2 px-4">
-            <div className="relative">(Not)Registered</div>
+            <p className="relative">(Not)Registered</p>
           </div>
           <div className="absolute top-[0px] left-[211px]  rounded-lg bg-blue-300 flex flex-row items-center justify-center py-2 px-4  ">
-            <div className="relative">Guarantee</div>
+            <p className="relative">Guarantee</p>
           </div>
         </div>
         <div className="absolute top-[7px] left-[385px]   w-[82px] h-[18px] text-[11.93px] text-black">
-          <div className="absolute top-[0px] left-[22px]">Prigrevica</div>
+          <p className="absolute top-[0px] left-[22px]">Prigrevica</p>
           <img
             className="absolute top-[0px] left-[0px] w-[18px] h-[18px]"
             alt=""
