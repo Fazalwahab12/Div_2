@@ -2,7 +2,7 @@ import React from 'react';
 import Cartbox from './Cart_box';
 
 const Payment_type = () => {
-  const yearSectionTop = 593; // Update with the correct value
+  
 
   return (
     <>

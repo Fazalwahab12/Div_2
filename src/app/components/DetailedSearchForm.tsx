@@ -2,10 +2,11 @@ import React from 'react';
 import Cartbox from './Cart_box';
 import Payment_type from './Payment_type';
 import group from '../../../public/public/group.svg'
-import groups from '../../../public/public/group-colur.svg'
+
 import Carfeatures from './Car_features';
 import Squarebox from './Square_box';
 import Image from 'next/image';
+import Colour from './Colour';
 
 const DetailedSearchForm = () => {
   return (
@@ -17,7 +18,8 @@ const DetailedSearchForm = () => {
       <div className="absolute top-[259.5px] left-[399.5px]  w-[255px] h-2 border-t-[3px] border-solid  " />
       <div className="absolute top-[448.5px] left-[399.5px]  w-[255px] h-2 border-t-[3px] border-solid " />
       <div className="absolute top-[876.5px] left-[399.5px] w-[255px] h-2 border-t-[3px] border-solid "/>
-      <div className="absolute top-[1631.5px] left-[399.5px] box-border w-[255px] h-2 border-t-[3px] border-solid" />
+      <div className="absolute top-[1631.5px] left-[399.5px] box-border w-[255px] h-2 border-t-[3px] " />
+      <div className="absolute top-[1871.5px] left-[399.5px] box-border w-[255px] h-px border-t-[3px] " />
       <div className="font-semibold text-black absolute top-[270px] left-[400px] w-[254px] h-[157px] text-left text-sm text-blue font-poppins">
         Mark, model, variant
       </div>
@@ -97,14 +99,7 @@ Fast charge time
         </div>
       </div>
 
-      <div className="absolute top-[1648px] left-[400px] font-semibold text-black">
-        Exterior Colour
-      </div> 
-      <Image
-        className="absolute top-[1681px] left-[400px] w-[254px] h-[59.8px]"
-        alt=""
-      src={groups}
-      />
+      <Colour/>
     </div>
   );
 }
