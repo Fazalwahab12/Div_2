@@ -11,11 +11,13 @@ export default function Home() {
   return (
     <div>
      <Navbar/>
+  <div className=' md:block  sm:hidden'>
+  <CarSearchInfo/>
+  </div>
     
-    {/* <CarSearchInfo/>
 <DetailedSearchForm/>
 
-<Car/> */}
+{/* <Car/> */}
 
 </div>
   )

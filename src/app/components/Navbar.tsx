@@ -8,6 +8,7 @@ import { FaStar, FaEnvelope } from 'react-icons/fa';
 import { useState } from 'react';
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+import CarSearchInfo from './CarSearchInfo';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
@@ -56,15 +57,9 @@ const Navbar = () => {
 </span>
 {showMenu && (
   <div className="w-[80%] h-screen overflow-scroll absolute top-0   right-0 bg-gray-300 p-4 scrollbar-hide flex flex-col items-center space-y-12">
-    <Link href="/" className="flex items-center">
-      <Image
-        src={primary}
-        alt="Logo"
-        className="w-36 h-20 object-cover"
-      />
-    </Link>
+   <CarSearchInfo/>
     <ul className="flex flex-col items-center space-y-12">
-      <Link className="relative cursor-pointer flex" href={''}>
+      <Link className="relative cursor-pointer flex mt-10" href={''}>
         <span className="cursor-pointer">Search</span>
         <MdOutlineArrowDropDown className="w-6 h-6" />
       </Link>
@@ -89,7 +84,9 @@ const Navbar = () => {
         <span className="text-black text-base font-medium">Login</span>
       </Link>
     </div>
+    
   </div>
+  
 )}
 
 

@@ -20,7 +20,7 @@ const config: Config = {
         'sm': '300px',
         // => @media (min-width: 640px) { ... }
   
-        'laptop': '800px',
+        'laptop': '600px',
         // => @media (min-width: 1024px) { ... }
   
         'desktop': '1280px',
