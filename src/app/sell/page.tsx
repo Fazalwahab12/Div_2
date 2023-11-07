@@ -14,7 +14,7 @@ const page = () => {
         <div className=' mb-[600px]'>
             <Image src={car_main} alt={''}></Image>
 
-            <div className="absolute top-[330px] left-[90] w-5/6 h-[600px] bg-white shadow-lg mx-32">
+            <div className="absolute top-[330px] left-[40] w-[1250px] h-[600px] bg-white shadow-lg mx-12">
  
            
   <div className="flex items-center">
