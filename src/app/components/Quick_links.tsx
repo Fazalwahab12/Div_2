@@ -166,7 +166,7 @@ const Quicklinks = () => {
         </div>
       </div>
       <Image
-        className="absolute top-[668px] left-[calc(50%_-_580px)] w-[1160px] h-1 object-cover"
+        className="absolute top-[668px] left-[calc(50%_-_480px)] w-[1160px] h-1 object-cover"
         alt=""
         src={line}
       />
