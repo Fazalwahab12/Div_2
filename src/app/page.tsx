@@ -10,13 +10,13 @@ import Footors from './components/Footors'
 export default function Home() {
   return (
     <div>
-    <Navbar />
+   
     
     <CarSearchInfo/>
 <DetailedSearchForm/>
 
 <Car/>
-<Footors/>
+
 </div>
   )
 }

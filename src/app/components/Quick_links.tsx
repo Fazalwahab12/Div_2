@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import mobile from '../../../public/assets/mobile.svg'
-import layer from '../../../public/assets/layer.svg'
-import lineararrowdown from '../../../public/assets/lineararrowdown.svg'
-import line from '../../../public/assets/line.png'
+import mobile from '../../../public/public/mobile.svg'
+import layer from '../../../public/public/layer.svg'
+import lineararrowdown from '../../../public/public/lineararrowdown.svg'
+import line from '../../../public/public/line.png'
 const Quicklinks = () => {
   return (
     <div>
