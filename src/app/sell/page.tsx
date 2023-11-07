@@ -14,12 +14,12 @@ const page = () => {
         <div className=' mb-[600px]'>
             <Image src={car_main} alt={''}></Image>
 
-            <div className="absolute top-[330px] left-[90] w-3/4 h-[600px] bg-white shadow-lg mx-44">
+            <div className="absolute top-[330px] left-[90] w-5/6 h-[600px] bg-white shadow-lg mx-32">
  
            
   <div className="flex items-center">
     <Image src={car2} alt={''} className="mx-8 mt-6" />
-    <Image src={cars} alt={''} className=" px-8 pr-10  bg-[#EDEEF0] w-[72rem]   h-16" />
+    <Image src={cars} alt={''} className=" px-8 pr-10  bg-[#EDEEF0] w-[71rem]   h-16" />
   </div>
 
 <Squarebox2 name="Make" top="100px" left={'10px'} width={'255px'} icon={<RiArrowDropDownLine />} iconSize="50px" iconLeft="180px"  />
