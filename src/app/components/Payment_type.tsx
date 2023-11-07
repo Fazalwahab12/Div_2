@@ -2,6 +2,7 @@ import React from 'react';
 import Cartbox from './Cart_box';
 import Link from 'next/link';
 
+
 const Payment_type = () => {
   
 
@@ -39,14 +40,7 @@ const Payment_type = () => {
         <Cartbox name="to" />
        </div>
       </div>
-      <div className="absolute top-[745px] left-[400px] rounded-lg bg-red-500 w-[252px] h-[52px] flex flex-row items-center justify-center py-4 px-[41px] gap-[8px] text-white">
-        <img
-          className="relative w-4 h-4"
-          alt=""
-          src="/vuesaxlinearsearchnormal1.svg"
-        />
-        <p className="relative font-medium">5.221.456 results</p>
-      </div>
+      
       <div className="absolute top-[805px] left-[400px] rounded-lg bg-blue-500 w-[252px] h-[52px] flex flex-row items-center justify-center py-4 px-[41px] gap-[8px] text-white">
         
         <p className="relative font-medium">Save search</p>

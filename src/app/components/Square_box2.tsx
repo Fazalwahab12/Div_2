@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 interface Squarebox2Props {
   name?: string;
   top: string;
@@ -27,7 +26,7 @@ const Squarebox2: React.FC<Squarebox2Props> = ({
   };
 
   const iconStyles = {
-    position: 'absolute',
+    position: 'absolute' as 'absolute', // Explicitly specify 'position' type
     top: '0',
     left: iconLeft || '0',
     fontSize: iconSize || '16px',

@@ -76,11 +76,7 @@ const Car = () => {
         </div>
         <div className="absolute top-[7px] left-[385px]   w-[82px] h-[18px] text-[11.93px] text-black">
           <p className="absolute top-[0px] left-[22px]">Prigrevica</p>
-          <img
-            className="absolute top-[0px] left-[0px] w-[18px] h-[18px]"
-            alt=""
-            src="/vuesaxlinearlocation.svg"
-          />
+          
         </div>
       </div>
 
