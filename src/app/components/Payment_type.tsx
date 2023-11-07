@@ -16,7 +16,7 @@ const Payment_type = () => {
         </p>
       </div>
       <div className="absolute top-[501px] left-[400px] rounded-tl-lg rounded-tr-none rounded-br-none rounded-bl-lg bg-red-500 w-[127px] h-11 text-white border-[1px] border-solid border-red-400">
-        <Link className="absolute top-[11.5px] left-[16px] font-medium" href={''}>Buy</Link>
+        <Link className="absolute top-[11.5px] left-[16px] font-medium" href={'/'}>Buy</Link>
       </div>
 
       <p className="absolute top-[561px] left-[400px] text-base font-semibold text-black">

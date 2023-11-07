@@ -22,9 +22,9 @@ const Navbar = () => {
         <Link href={'/news-and-guides'}  className="cursor-pointer text-black" >
             News & Guides
         </Link>
-        <button className="cursor-pointer py-2 px-6 bg-red rounded-lg  bg-red-600">
+        <Link className="cursor-pointer py-2 px-6 bg-red rounded-lg  bg-red-600" href={'sell'}>
           <span className="text-black text-base font-medium">Sell</span>
-        </button>
+        </Link>
       </ul>
       
       <div className="flex items-center space-x-4">
@@ -37,9 +37,9 @@ const Navbar = () => {
   <FaStar className="w-6 h-6 cursor-pointer" />
   <FaEnvelope className="w-6 h-6 cursor-pointer" />
 </div>
-  <button className="cursor-pointer py-2  px-8 bg-blue rounded-lg  bg-blue-500">
+  <Link className="cursor-pointer py-2 mr-16  px-8 bg-blue rounded-lg  bg-blue-500" href={'/'}>
     <span className="text-black text-base font-medium">Login</span>
-  </button>
+  </Link>
 </div>
     </nav>
   );

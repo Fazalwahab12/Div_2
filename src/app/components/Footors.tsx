@@ -6,7 +6,7 @@ import Quicklinks from './Quick_links'
 import Link from 'next/link'
 const Footors = () => {
   return (
-    <div className="absolute top-[2854px] left-[calc(50%_-_960px)] w-[1820px] h-[771px] text-left text-13xl text-white font-lora">
+    <div className="absolute  left-[calc(50%_-_960px)] w-full  h-auto  text-left text-13xl text-white font-lora">
     <div className="absolute top-[0px] left-[calc(50%_-_960px)] bg-[#003087] w-[1920px] h-[771px]" />
     <label className="cursor-pointer absolute  top-[56px] left-[1339px] font-bold text-right text-3xl">
         Lets connect

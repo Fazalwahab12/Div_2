@@ -11,21 +11,15 @@ import { RiArrowDropDownLine } from 'react-icons/ri';
 const page = () => {
   return (
     <div>
-        <div>
+        <div className=' mb-[600px]'>
             <Image src={car_main} alt={''}></Image>
 
             <div className="absolute top-[330px] left-[90] w-3/4 h-[600px] bg-white shadow-lg mx-44">
  
-            {/* <div className='mx-52  bg-gray-300  w-5/6  h-24 bottom-9'>
-    <Image
-      src={cars}
-      alt={''}
-      className=" pt-5 px-5 "
-    ></Image>
-  </div> */}
+           
   <div className="flex items-center">
     <Image src={car2} alt={''} className="mx-8 mt-6" />
-    <Image src={cars} alt={''} className=" px-8 pr-10  bg-gray-100 w-[72rem]   h-16" />
+    <Image src={cars} alt={''} className=" px-8 pr-10  bg-[#EDEEF0] w-[72rem]   h-16" />
   </div>
 
 <Squarebox2 name="Make" top="100px" left={'10px'} width={'255px'} icon={<RiArrowDropDownLine />} iconSize="50px" iconLeft="180px"  />

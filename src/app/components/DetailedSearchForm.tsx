@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const DetailedSearchForm = () => {
   return (
-    <div className="h-screen bg-[#EDEEF0]">
+    <div className="bg-[#EDEEF0] h-[2800px]">
       <div className="absolute top-[186px] left-[380px] rounded-lg bg-white  w-[294px] h-[2336px] border-[1px] border-solid border-stroke" />
       <h1 className="absolute top-[212px] left-[400px] text-3xl font-semibold text-red-600">
         Detailed Search
