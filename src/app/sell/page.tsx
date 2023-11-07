@@ -1,22 +1,33 @@
 import Image from 'next/image'
 import React from 'react'
 import car_main from '../../../public/public/car_main.png'
-
-import line from '../../../public/public/line.png'
+import car2 from '../../../public/public/car2.svg'
+import cars from '../../../public/public/car.svg'
 import group from '../../../public/public/group.svg'
 import Squarebox2 from '../components/Square_box2'
 
 import { RiArrowDropDownLine } from 'react-icons/ri';
-import Cartbox from '../components/Cart_box'
+
 const page = () => {
   return (
     <div>
         <div>
             <Image src={car_main} alt={''}></Image>
 
-            <div className='  absolute top-[330px] left-[90] w-3/4      h-[600px]  bg-white  shadow-lg  mx-44'>
-            
-          
+            <div className="absolute top-[330px] left-[90] w-3/4 h-[600px] bg-white shadow-lg mx-44">
+ 
+            {/* <div className='mx-52  bg-gray-300  w-5/6  h-24 bottom-9'>
+    <Image
+      src={cars}
+      alt={''}
+      className=" pt-5 px-5 "
+    ></Image>
+  </div> */}
+  <div className="flex items-center">
+    <Image src={car2} alt={''} className="mx-8 mt-6" />
+    <Image src={cars} alt={''} className=" px-8 pr-10  bg-gray-100 w-[72rem]   h-16" />
+  </div>
+
 <Squarebox2 name="Make" top="100px" left={'10px'} width={'255px'} icon={<RiArrowDropDownLine />} iconSize="50px" iconLeft="180px"  />
 <Squarebox2 name="Model" top="100px" left={'280px'} width={'255px'} icon={<RiArrowDropDownLine />} iconSize="50px" iconLeft="180px"  />
 <Squarebox2 name="Variant" top="100px" left={'550px'} width={'255px'}  />
@@ -114,7 +125,7 @@ const page = () => {
       </div>
 
       <p className="absolute top-[430px] left-[380px] text-base font-semibold text-black">
-      Leasing Duration
+      Leasing Kilometers per year
       </p>
 <div>
       <Squarebox2 name="from" top="460px" left={'380px'} width={'140px'} icon={<RiArrowDropDownLine />} iconSize="50px" iconLeft="100px"  />
@@ -123,13 +134,13 @@ const page = () => {
 
 
       <p className="absolute top-[430px] left-[680px] text-base font-semibold text-black">
-      Number of doors
+      Origin of the vehicle
       </p>
 <div className='absolute top-[428px] left-[680px] border-blue-500'>
       <div className="absolute top-[32px] left-[0px] rounded-lg bg-white  w-[255px] h-11 border-[1px] border-solid border-blue-500">
-        <h1 className="absolute top-[11.5px] left-[16px] font-medium">
-        4
-        </h1>
+        <p className="absolute top-[11.5px] left-[16px] font-medium">
+        Home plates
+        </p>
         <Image
           className="absolute top-[0px] left-[218px] w-9 h-11"
           alt=""
@@ -139,14 +150,12 @@ const page = () => {
       </div>
       </div>
 
-      <p className="absolute top-[430px] left-[950px] text-base font-semibold text-black">
-      Number of doors
+      <p className="absolute top-[430px] left-[980px] text-base font-semibold text-black">
+      Ownership
       </p>
-<div className='absolute top-[428px] left-[950px] border-blue-500'>
+<div className='absolute top-[428px] left-[980px] border-blue-500'>
       <div className="absolute top-[32px] left-[0px] rounded-lg bg-white  w-[255px] h-11 border-[1px] border-solid border-blue-500">
-        <h1 className="absolute top-[11.5px] left-[16px] font-medium">
-        4
-        </h1>
+      
         <Image
           className="absolute top-[0px] left-[218px] w-9 h-11"
           alt=""
