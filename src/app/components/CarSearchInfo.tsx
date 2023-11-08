@@ -3,8 +3,8 @@ import { MdOutlineArrowForwardIos } from 'react-icons/md';
 
 const CarSearchInfo = () => {
   return (
-    <div className=" max-h-full md:max-h-screen bg-[#EDEEF0]">
-      <div className="absolute mx-10 sm:top-10 md:top-[140px] sm:left-5 md:left-[360px] w-[654px] h-5 flex text-blue-800 space-x-3">
+    <div className=" max-h-full md:max-h-screen bg-[#1f3768]">
+      <div className="absolute  sm:top-10 md:top-[140px] sm:left-5 md:left-[360px] md:w-[654px]  flex text-blue-800 space-x-3">
       
       <div className='flex flex-col md:flex-row md:space-x-8'>
   <Link href="/" className="relative cursor-pointer flex">
@@ -33,7 +33,7 @@ const CarSearchInfo = () => {
 
   <Link href="/car-search" className="relative cursor-pointer flex">
     <span className="cursor-pointer whitespace-nowrap">
-      <p className="font-bold ">Kia Stonic 1.5 MPI EX URBAN</p>
+      <p className="font-bold ">Kia Stonic 1.5 MPI </p>
     </span>
     <MdOutlineArrowForwardIos className="w-5 h-6 sm:hidden  md:block" />
   </Link>

@@ -4,11 +4,11 @@ import React from 'react'
 import mobile from '../../../public/public/mobile.svg'
 import layer from '../../../public/public/layer.svg'
 import lineararrowdown from '../../../public/public/lineararrowdown.svg'
-import line from '../../../public/public/line.png'
+
 const Quicklinks = () => {
   return (
     <div>
-         <div className="absolute top-[56px] left-[940px] w-64 h-[533px] text-base text-[inherit]">
+         <div className="absolute md:top-[2900px] sm:top-[7920px] md:left-[600px] sm:left-[230px] w-64 h-[533px] text-base text-[inherit]">
         <label className="cursor-pointer absolute top-[65px] left-[0px] leading-[36px]">
           <p className="m-0">
             <Link
@@ -25,7 +25,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/sigurna-kupovina-polovnih-automobila-bez-prevare/"
               target="_blank"
             >
-              Safe, scam-free used car shopping
+              Safe, scam-free used 
             </Link>
           </p>
           <p className="m-0">
@@ -52,7 +52,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/prednosti-oglasavanja-na-polovniautomobili"
               target="_blank"
             >
-              Advantages of advertising
+              Advantages 
             </Link>
           </p>
           <p className="m-0">
@@ -61,7 +61,7 @@ const Quicklinks = () => {
               href="https://polovniautomobilihelp.zendesk.com/hc/sr-me"
               target="_blank"
             >
-              Frequently asked questions
+             QNA
             </Link>
           </p>
           <p className="m-0">
@@ -106,7 +106,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/pruzate-auto-usluge"
               target="_blank"
             >
-              You provide car services
+           provide car services
             </Link>
           </p>
           <p className="m-0">
@@ -134,11 +134,11 @@ const Quicklinks = () => {
         
       </div>
       <Image
-        className="absolute top-[219px] left-[1265px] w-[276px] h-[37px]"
+        className="absolute sm:top-[8650px]   md:top-[3100px] md:left-[875px]  w-[276px] h-[37px]"
         alt=""
         src={mobile}
       />
-      <div className="absolute top-[609px] left-[381px] w-[279px] h-10">
+      <div className="absolute sm:top-[8490px] sm:left-[30px] md:top-[3400px] md:left-[60px] w-[279px] h-10">
         <div className="cursor-pointer py-2 px-5 bg-white absolute top-[0px] left-[0px] rounded-37xl flex flex-row items-center justify-center gap-[16px] border-[1px]  border-[#003087]">
           <div className="relative w-[84px] h-6">
             <Image
@@ -165,12 +165,8 @@ const Quicklinks = () => {
           </div>
         </div>
       </div>
-      <Image
-        className="absolute top-[668px] left-[calc(50%_-_480px)] w-[1160px] h-1 object-cover"
-        alt=""
-        src={line}
-      />
-      <label className="cursor-pointer absolute top-[701px] left-[calc(50%_-_177px)] text-base leading-[36px]">
+      
+      <label className="cursor-pointer absolute sm:top-[8710px] sm:left-8 md:top-[3450px] md:left-[calc(50%_-_177px)] text-base leading-[36px]">
         Copyright 2023 Endrobil.no. All rights reserved.
       </label>
     </div>
@@ -178,3 +174,21 @@ const Quicklinks = () => {
 }
 
 export default Quicklinks
+
+
+// import Link from 'next/link';
+
+// interface CustomLinkProps {
+//   href: string;
+//   name: string;
+// }
+
+// const Customlink: React.FC<CustomLinkProps> = ({ href, name }) => {
+//   return (
+//     <Link href={href}>
+//       <p className="text-blue-500 hover:underline">{name}</p>
+//     </Link>
+//   );
+// };
+
+// export default Customlink;

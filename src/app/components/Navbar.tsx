@@ -56,7 +56,10 @@ const Navbar = () => {
   <FiMenu />
 </span>
 {showMenu && (
-  <div className="w-[80%] h-screen overflow-scroll absolute top-0   right-0 bg-gray-300 p-4 scrollbar-hide flex flex-col items-center space-y-12">
+  <div
+    className="w-[80%] h-screen overflow-scroll absolute top-0 right-0 bg-gray-300 p-4 scrollbar-hide flex flex-col items-center space-y-12"
+    style={{ zIndex: 9999 }}
+  >
    <CarSearchInfo/>
     <ul className="flex flex-col items-center space-y-12">
       <Link className="relative cursor-pointer flex mt-10" href={''}>
@@ -94,6 +97,7 @@ const Navbar = () => {
 <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+                style={{ zIndex: 9999 }}
               >
                 <MdClose />
                 </span>

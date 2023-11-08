@@ -1,84 +1,40 @@
-import Image from 'next/image'
-import React from 'react'
-import car from '../../../public/public/white_car.png'
+import Image from 'next/image';
+import React from 'react';
+import car from '../../../public/public/white_car.png';
+
 const Carcard = () => {
   return (
-<div>
-      <div className="absolute top-[2.8px] left-[0px] rounded-[7.57px] bg-white shadow-[0px_0px_10.4px_rgba(0,_0,_0,_0.4)] box-border w-[260.1px] h-[326.3px] border-[0.9px] border-solid border-stroke" />
-      <Image
-        className="absolute top-[0px] left-[0px] rounded-[7.57px] w-[260.1px] h-[209px] object-cover"
-        alt=""
-        src={car}
-      />
-      <div className="absolute top-[223.7px] left-[15.1px] text-[15.13px] font-semibold text-black inline-block w-[227.9px]">{`Ford Mondeo ST `}</div>
-      <p className="absolute top-[247.7px] left-[15.1px] text-red-500 font-semibold inline-block w-[91.7px] h-[26.2px]">
-        20,300 €
-      </p>
-      <div className="absolute top-[285.3px] left-[17px] w-[227px] h-[31px] text-center text-[9.46px] text-body-text">
-        <div className="absolute top-[0px] left-[0px] w-[29.3px] h-[29.4px]">
-          <h1 className="absolute top-[0px] left-[0px] inline-block w-[29.3px] h-[11.9px]">
-            Year
-          </h1>
-          <p className="absolute top-[15.1px] left-[1.9px] text-[11.35px] font-semibold text-black1 inline-block w-[25.5px] h-[14.3px]">
-            2019
-          </p>
-        </div>
-        <div className="absolute top-[0px] left-[70.9px] w-[62.4px] h-[29.6px]">
-          <h2 className="absolute top-[0px] left-[0px] inline-block w-[62.4px] h-[11.9px]">
-            Kilometers
-          </h2>
-          <p className="absolute top-[15.4px] left-[8.5px] text-[11.35px] font-semibold text-black1 inline-block w-[44.4px] h-[14.2px]">
-            185.000
-          </p>
-        </div>
-        <div className="absolute top-[0.2px] left-[174px] w-[53px] h-[29.2px]">
-          <p className="absolute top-[0px] left-[0px] inline-block w-[53px] h-[11.3px]">
-            Engine
-          </p>
-          <p className="absolute top-[14.9px] left-[0.9px] text-[11.35px] font-semibold text-black1 inline-block w-[51.1px] h-[14.3px]">
-            Petrol
-          </p>
-        </div>
-        <div className="absolute top-[3.5px] left-[49.6px] box-border w-[0.9px] h-7 border-r-[0.9px] border-solid border-stroke" />
-        <div className="absolute top-[3.5px] left-[153.7px] box-border w-[0.9px] h-7 border-r-[0.9px] border-solid border-stroke" />
-      </div>
-      
+    <div className="flex flex-wrap ">
+      <div className="flex flex-col  bg-white shadow-[0px_0px_10.4px_rgba(0,_0,_0,_0.4)] border-[0.9px] sm:w-[340.1px]  md:w-[260.1px] md:h-[335.3px]">
+        <Image
+          className=" sm:w-[340.1px]  md:w-[260.1px] md:h-[200.3px] object-cover"
+          alt=""
+          src={car}
+        />
+        <div className=" px-14 pt-1   ">
+          <p className='text-black font-extrabold '>Ford Mondeo ST</p>
+        <p className="text-red-500 font-bold  ">20,300 €</p>
         
-        <p className="absolute top-[247.7px] left-[15.1px] font-semibold inline-block w-[91.7px] h-[26.2px]">
-          20,300 €
-        </p>
-        <div className="absolute top-[285.3px] left-[17px] w-[227px] h-[31px] text-center text-[9.46px] text-body-text">
-          <div className="absolute top-[0px] left-[0px] w-[29.3px] h-[29.4px]">
-            <p className="absolute top-[0px] left-[0px] inline-block w-[29.3px] h-[11.9px]">
-              Year
-            </p>
-            <p className="absolute top-[15.1px] left-[1.9px] text-[11.35px] font-semibold text-black1 inline-block w-[25.5px] h-[14.3px]">
-              2019
-            </p>
           </div>
-          <div className="absolute top-[0px] left-[70.9px] w-[62.4px] h-[29.6px]">
-            <p className="absolute top-[0px] left-[0px] inline-block w-[62.4px] h-[11.9px]">
-              Kilometers
-            </p>
-            <p className="absolute top-[15.4px] left-[8.5px] text-[11.35px] font-semibold text-black1 inline-block w-[44.4px] h-[14.2px]">
-              185.000
-            </p>
+      
+        <div className=' flex sm:mx-8 md:mx-4'>
+          <div className=" px-2 space-y-2 pt-4">
+            <h1 className="">Year</h1>
+            <p className="">2019</p>
           </div>
-          <div className="absolute top-[0.2px] left-[174px] w-[53px] h-[29.2px]">
-            <p className="absolute top-[0px] left-[0px] inline-block w-[53px] h-[11.3px]">
-              Engine
-            </p>
-            <p className="absolute top-[14.9px] left-[0.9px] text-[11.35px] font-semibold text-black1 inline-block w-[51.1px] h-[14.3px]">
-              Petrol
-            </p>
+          <div className=" px-2 space-y-2 pt-4">
+            <h2 className="">Kilometers</h2>
+            <p className="">185.000</p>
           </div>
-          <div className="absolute top-[3.5px] left-[49.6px] box-border w-[0.9px] h-7 border-r-[0.9px] border-solid border-stroke" />
-          <div className="absolute top-[3.5px] left-[153.7px] box-border w-[0.9px] h-7 border-r-[0.9px] border-solid border-stroke" />
+          <div className="px-2 space-y-2 pt-4">
+            <p >Engine</p>
+            <p >Petrol</p>
+          </div>
         </div>
+        
       </div>
-  
-    
-  )
-}
+    </div>
+  );
+};
 
-export default Carcard
+export default Carcard;

@@ -11,7 +11,7 @@ import Squarebox2 from './Square_box2';
 
 const DetailedSearchForm = () => {
   return (
-    <div className="bg-[#EDEEF0] h-[2800px]">
+    <div className="bg-[#EDEEF0] md:h-[2800px]  sm:h-[2400px]">
       <div className="absolute md:top-[186px] sm:top-16 md:left-[160px] sm:left-10 rounded-lg bg-white w-[294px] h-[2336px] border-[1px]" />
       <h1 className="absolute sm:top-20 md:top-[212px] sm:left-14 md:left-[190px] text-3xl font-semibold text-red-600">
         Detailed Search

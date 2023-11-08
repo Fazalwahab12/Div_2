@@ -5,6 +5,7 @@ import CarSearchInfo from './components/CarSearchInfo'
 import DetailedSearchForm from './components/DetailedSearchForm'
 import Car from './components/Car'
 import Footors from './components/Footors'
+import Footorlinks from './components/Footor_b'
 
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
     
 <DetailedSearchForm/>
 
-{/* <Car/> */}
+<Car/>
+
 
 </div>
   )
