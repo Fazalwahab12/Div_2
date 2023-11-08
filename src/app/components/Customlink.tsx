@@ -8,7 +8,7 @@ import lineararrowdown from '../../../public/public/lineararrowdown.svg'
 const Quicklinks = () => {
   return (
     <div>
-         <div className="absolute md:top-[2900px] sm:top-[7920px] md:left-[600px] sm:left-[230px] w-64 h-[533px] text-base text-[inherit]">
+         <div className="absolute md:top-[2900px] sm:top-[7920px] md:left-[600px] sm:left-[230px] sm:w-44 md:w-64 h-[533px] text-base text-[inherit]">
         <label className="cursor-pointer absolute top-[65px] left-[0px] leading-[36px]">
           <p className="m-0">
             <Link

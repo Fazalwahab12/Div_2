@@ -98,6 +98,7 @@ import React from 'react'
 import Footorlinks from './Footor_b'
 import Quicklinks from './Customlink'
 import Image from 'next/image'
+import Customlink from './Customlink'
 
 const Footors = () => {
   return (
@@ -105,8 +106,8 @@ const Footors = () => {
       <h1  className='md:mx-10 mx-2 md:pt-10 md:text-3xl  sm:text-sm  text-white'>
       The  wanted makes and models
       </h1>
-<div className=' mx-2 md:mx-10     md:mt-24 md:w-[450px] md:h-[340px] sm:w-[200px] sm:h-[600px]'>
-      <div className="flex pt-8 pb-8 flex-col md:flex-row sm:flex-col gap-4">
+<div className=' mx-2 md:mx-10     md:mt-24 md:w-[450px] md:h-[340px] sm:w-[100px] sm:h-[600px]'>
+      <div className="flex pt-8 pb-8 flex-col md:flex-row sm:flex-col gap-2">
         <Footorlinks name={'Audi A4'} />
         <Footorlinks name={'Audi A4'} />
       
@@ -116,7 +117,7 @@ const Footors = () => {
         <Footorlinks name={'Audi A4'} />
       
       </div>
-      <div className="flex pt-8 pb-8 flex-col md:flex-row sm:flex-col mb-8 gap-4">
+      <div className="flex pt-8 pb-8 flex-col md:flex-row sm:flex-col mb-8 gap-2">
         <Footorlinks name={'Audi A4'} />
         <Footorlinks name={'Audi A4'} />
        
@@ -124,7 +125,7 @@ const Footors = () => {
       
       </div>
       <div className=''>
-      <Quicklinks/>
+      <Customlink/>
       </div    >
       <label className="cursor-pointer absolute sm:top-[8540px] sm:left-[20px]  md:top-[2950px] md:left-[900px] font-bold text-right text-3xl">
          Lets connect

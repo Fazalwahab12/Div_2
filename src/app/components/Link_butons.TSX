@@ -7,7 +7,7 @@ interface ButtonProps {
 
 const linkbutons: React.FC<ButtonProps> = ({ name }) => {
   return (
-    <button className="rounded-lg bg-[#658FBD] w-[230px] h-[61px]">
+    <button className="rounded-lg bg-[#658FBD] md:w-[230px] sm:w-[180] h-[61px]">
       {name}
     </button>
   );
