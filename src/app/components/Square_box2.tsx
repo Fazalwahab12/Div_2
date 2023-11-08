@@ -2,9 +2,9 @@ import React from 'react';
 
 interface Squarebox2Props {
   name?: string;
-  top: string;
+  top?: string;
   width: string;
-  left: string;
+  left?: string;
   icon?: React.ReactNode;
   iconSize?: string;
   iconLeft?: string;
@@ -34,7 +34,7 @@ const Squarebox2: React.FC<Squarebox2Props> = ({
 
   return (
     <div className="absolute rounded-lg bg-white box-border h-11 border-[1px] border-solid border-blue-500 flex-wrap" style={cartboxStyles}>
-      <div className="absolute top-[11.5px] left-[16px] font-medium">
+      <div className="absolute top-[11.5px] md:left-[16px] sm:left-[6px] font-medium">
         {name}
       </div>
       {icon && (
