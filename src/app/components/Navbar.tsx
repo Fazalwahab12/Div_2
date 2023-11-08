@@ -96,7 +96,7 @@ const Navbar = () => {
 
 <span
                 onClick={() => setShowMenu(false)}
-                className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+                className="absolute top-4 md:hidden sm:block right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
                 style={{ zIndex: 9999 }}
               >
                 <MdClose />
