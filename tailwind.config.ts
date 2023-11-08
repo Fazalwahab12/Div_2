@@ -17,7 +17,7 @@ const config: Config = {
         'red-200': 'various-red-shade-color', // Define the 'bg-red-200' class
       },
       screens: {
-        'sm': '300px',
+        'sm': '350px',
         // => @media (min-width: 640px) { ... }
   
         'laptop': '600px',

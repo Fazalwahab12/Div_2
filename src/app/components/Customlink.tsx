@@ -8,7 +8,7 @@ import lineararrowdown from '../../../public/public/lineararrowdown.svg'
 const Quicklinks = () => {
   return (
     <div>
-         <div className="absolute md:top-[2900px] sm:top-[7920px] md:left-[600px] sm:left-[230px] sm:w-44 md:w-64 h-[533px] text-base text-[inherit]">
+         <div className="absolute md:top-[2900px] sm:top-[7760px] md:left-[600px] sm:left-[180px]  md:w-64 sm:h-[733px] text-base text-[inherit]">
         <label className="cursor-pointer absolute top-[65px] left-[0px] leading-[36px]">
           <p className="m-0">
             <Link
@@ -16,7 +16,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/utvrdjivanje-trzisne-vrednosti-vozila"
               target="_blank"
             >
-              Vehicle assessment
+              Vehicleassessment
             </Link>
           </p>
           <p className="m-0">
@@ -25,7 +25,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/sigurna-kupovina-polovnih-automobila-bez-prevare/"
               target="_blank"
             >
-              Safe, scam-free used 
+              Safe,scam-freeused 
             </Link>
           </p>
           <p className="m-0">
@@ -34,7 +34,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/oglasi-na-mail"
               target="_blank"
             >
-              Email ads
+              Emailads
             </Link>
           </p>
           <p className="m-0">
@@ -43,7 +43,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/knjiga-utisaka"
               target="_blank"
             >
-              Book of impressions
+              Bookofimpressions
             </Link>
           </p>
           <p className="m-0">
@@ -70,7 +70,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/docs/MediaKit2023Polovniautomobili.pdf"
               target="_blank"
             >
-              Digital advertising
+              Digitaladvertising
             </Link>
           </p>
           <p className="m-0">
@@ -79,7 +79,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/o-nama"
               target="_blank"
             >
-              About us
+              Aboutus
             </Link>
           </p>
           <p className="m-0">
@@ -88,7 +88,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/uslovi-koriscenja"
               target="_blank"
             >
-              Terms of use
+              Termsofse
             </Link>
           </p>
           <p className="m-0">
@@ -97,7 +97,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/obavestenje-o-privatnosti"
               target="_blank"
             >
-              Privacy notice
+              Privacynotice
             </Link>
           </p>
           <p className="m-0">
@@ -106,7 +106,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/pruzate-auto-usluge"
               target="_blank"
             >
-           provide car services
+           providearervices
             </Link>
           </p>
           <p className="m-0">
@@ -115,7 +115,7 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/mobilne-aplikacije"
               target="_blank"
             >
-              Mobile applications
+              Mobileapplications
             </Link>
           </p>
           <p className="m-0">
@@ -124,12 +124,12 @@ const Quicklinks = () => {
               href="https://www.polovniautomobili.com/prijatelji-sajta"
               target="_blank"
             >
-              Friends of the site
+              Friendsofthesite
             </Link>
           </p>
         </label>
         <label className="cursor-pointer absolute top-[0px] left-[0px] text-13xl font-semibold text-white">
-          Quick Links
+          QuickLinks
         </label>
         
       </div>

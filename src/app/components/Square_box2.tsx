@@ -33,7 +33,7 @@ const Squarebox2: React.FC<Squarebox2Props> = ({
   };
 
   return (
-    <div className="absolute rounded-lg bg-white box-border h-11 border-[1px] border-solid border-blue-500" style={cartboxStyles}>
+    <div className="absolute rounded-lg bg-white box-border h-11 border-[1px] border-solid border-blue-500 flex-wrap" style={cartboxStyles}>
       <div className="absolute top-[11.5px] left-[16px] font-medium">
         {name}
       </div>

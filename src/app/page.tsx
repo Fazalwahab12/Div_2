@@ -11,7 +11,7 @@ import Footorlinks from './components/Footor_b'
 export default function Home() {
   return (
     <div>
-     <Navbar/>
+
   <div className=' md:block  sm:hidden'>
   <CarSearchInfo/>
   </div>
